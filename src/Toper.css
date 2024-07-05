@@ -1,0 +1,27 @@
+.toper {
+    width: 100%;
+    background-color: #CC3333;
+    color: #FFF8EE;
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+.toper p{
+    font-size: 12px;
+}
+.register{
+    font-size: 12px;
+    margin-left: 880px;
+}
+.toperIcon{
+    width: 20px;
+    height: 20px;
+}
+.activeHour, .callUs{
+    display: flex;
+    align-items: center;
+    gap: 12px   ;
+}
+.activeHour{
+    margin: 112px;
+}

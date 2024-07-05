@@ -1,0 +1,42 @@
+.signup_form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #FFF8EE;
+    border: 3px solid #CC3333;
+    padding: 40px 60px;
+}
+.Red_Text{
+    color: #CC3333 !important;
+}
+.newUsername, .newEmail, .newPassword{
+    font-size: 18px;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 5px;
+    color: #CC3333;
+}
+.newUserInput, .newEmailInput,.newPassInput{
+    width: 360px;
+    height: 40px;
+    padding-left: 20px;
+    margin: 0 auto 20px;
+    border-radius: 40px;
+    border: 3px solid #CC3333;
+    background-color: #FFF8EE;
+}
+.createAccount{
+    width: 380px;
+    height: 45px;
+    margin: 20px auto;
+    border: 3px solid #CC3333;
+    border-radius: 50px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #CC3333;
+    background-color: #FFF8EE;
+}

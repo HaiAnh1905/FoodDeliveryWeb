@@ -1,0 +1,58 @@
+.dishes{
+    width: 588px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    padding: 20px 10px 20px 20px;
+    display: grid;
+    grid-template-areas: 
+    "title title img"
+    "details details img"
+    "price btn img";
+    text-decoration: none;
+}
+.dishesTitle{
+    grid-area: title;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    text-align: left;
+    color: #2A435D;
+}
+.dishesDetails{
+    grid-area: details;
+    font-size: 18px;
+    font-weight: normal;
+    width: 397px;
+    color: #2A435D;
+    text-align: left;
+    /* margin: 15px 0; */
+}
+.dishesPrice{
+    grid-area: price;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    text-align: left;
+    color: #2A435D;
+    margin: auto 0;
+}
+.AddtoCart{
+    grid-area: btn;
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+    width: fit-content;
+    padding: 10px 30px;
+    text-align: center;
+    color: #FFF8EE;
+    background-color: #CC3333;
+    border: none;
+    border-radius: 10px;
+}
+.dishesIMGG{
+    grid-area: img;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}

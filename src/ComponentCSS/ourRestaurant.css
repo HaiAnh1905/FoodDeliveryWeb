@@ -1,0 +1,123 @@
+/* set up grid */
+.OurRestaurant{
+    width: 1201px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 470px 683px;
+    grid-template-areas: 
+    "title title"
+    "left1 right1"
+}
+.title7{
+    grid-area: title;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 50px auto 20px;
+    color: #CC3333;
+}
+.left1{
+    grid-area: left1;
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    grid-template-areas: 
+    "pic1 pic2"
+    "pic3 pic3";
+}
+.right1{
+    grid-area: right1;
+}
+/* set up grid 1 */
+#leftIMG1{
+    grid-area: pic1;
+}
+#leftIMG2{
+    grid-area: pic2;
+}
+#leftIMG3{
+    grid-area: pic3;
+}
+/* left1 */
+#leftIMG1 ,#leftIMG2{
+    width: 230px;
+    height: 153px;
+    margin-top: 30px;
+}
+#leftIMG3{
+    width: 460px;
+    height: 320px;
+}
+/* right1 */
+.right1{
+    margin-left: 40px;
+}
+.heading7{
+    font-size: 35px;
+    font-weight: bold;
+    color: #2A435D;
+    width: 409px;
+}
+.detail7{
+    font-size: 18px;
+    font-weight: 100;
+    color: #2A435D;
+    width: 679px;
+    margin-bottom: 50px;
+}
+.successStory{
+    display: grid;
+    grid-template-areas: 
+    "circle1 title"
+    "circle1 para"
+    "button button";
+    margin-top: 30px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 3px solid #CC3333;
+    grid-area: circle1;
+}
+.circleLogo{
+    width: 50px;
+    height: 50px;
+}
+.Storytitle{
+    grid-area: title;
+    font-size: 35px;
+    color: #CC3333;
+    font-weight: bold;
+    width: fit-content;
+    margin-left: 10px;
+}
+.successStory p{
+    grid-area: para;
+    font-size: 18px;
+    color: #2A435D;
+    width: 563px;
+    margin-left: 10px;
+}
+.readMore1{
+    margin-top: 8px;
+    margin-left: 160px;
+    grid-area: button;
+    width: 159px;
+    height: 35px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    background-color: #CC3333;
+    color: #FFF8EE;
+    font-size: 20px;
+    font-weight: bold;
+}
+.arrow3{
+    width: 20px;
+    height: 20px;
+}

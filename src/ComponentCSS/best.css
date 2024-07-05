@@ -1,0 +1,90 @@
+.BestInTown{
+    width: 1166px;
+    height: 345px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+/* food */
+.food {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    width: 438px;
+    height: 292px;
+}
+/* Social Media */
+.endheader{
+    display: flex;
+    justify-content: space-between;
+}
+.socialMedia img{
+    width: 25px;
+    height: 25px;
+}
+.socialMedia {
+    display: flex;
+    gap: 16px   ;
+}
+
+/* Order now */
+.ordernow {
+    margin-top: 70px;
+    display: flex; 
+    gap: 27px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.order1 {
+    margin-left: 320px;
+    width: 200px;
+    height: 60px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF8EE;
+    background-color: #CC3333;
+    border-radius: 10px;
+}
+.price1 {
+    font-size: 25px;
+    color: #2A435D;
+}
+.slider{
+    display: flex;
+    gap: 8px   ;
+}
+
+/* Thumbnail */
+.title1, .heading1 {
+    font-style: italic;
+}
+.heading1{
+    width: 518px;
+    font-size: 50px;
+}
+.title1{
+    font-size: 20px;
+    color: #CC3333;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.red_text{
+    color: #CC3333;
+}
+.thumbnail {
+    margin-left: 130px;
+}
+
+/* Carousel */
+#slider1{
+    background-color: #CC3333 ; 
+    /* position: relative; */
+}
+.sld {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 3px solid #CC3333;
+}

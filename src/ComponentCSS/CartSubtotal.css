@@ -1,0 +1,40 @@
+.Subtotal{
+    width: 385px;
+    border: 3px solid #CC3333;
+    border-radius: 40px;
+    padding: 30px 20px;
+}
+.SubtotalTitle{
+    font-size: 35px;
+    font-weight: bold;
+    width: fit-content;
+    color: #CC3333;
+}
+.OrderTotal, .Shipping,.Voucher, .EndTotal{
+    display: flex;
+    width: 386px;
+    padding: 10px 0;
+    color: #CC3333;
+    border-bottom: 2px solid #CC3333;
+    align-items: center;
+    justify-content: space-between;
+} 
+.its {
+    font-size: 18px;
+    font-weight: normal;
+    width: fit-content;
+}
+.completeOrder{
+    margin-top: 40px;
+    width: 249px;
+    height: 60px;
+    background-color: #CC3333;
+    color: #FFF8EE;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #FFF8EE;
+    border-radius: 10px;
+}

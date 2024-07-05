@@ -1,0 +1,93 @@
+.richHealthy {
+  width: 1166px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 70px;
+}
+/* title */
+.tilte3 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #2a435d;
+  width: fit-content;
+  margin-bottom: 14px;
+}
+/* heading */
+.heading3 {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 35px;
+  color: #cc3333;
+  width: 502px;
+  margin-bottom: 30px;
+}
+/* details */
+.details {
+  width: 801px;
+  font-size: 25px;
+  color: #2a435d;
+  margin-left: 20px;
+}
+/* What we best */
+.WhatWeBest {
+  margin-left: 20px;
+}
+.WhatWeBest li {
+  align-items: center;
+  /* justify-content: center; */
+  font-size: 25px;
+  color: #2a435d;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  margin: 25px 0;
+}
+.staricon {
+  width: 20px;
+  height: 20px;
+}
+/* IMG */
+.richHealthyIMG1 {
+  width: 361px;
+}
+.richHealthyIMG2 {
+  width: 359px;
+}
+/* Read more */
+.readmore {
+  border: none;
+  background-color: #cc3333;
+  width: 300px;
+  height: 60px;
+  font-size: 35px;
+  color: #fff8ee;
+  border-radius: 20px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* grid template */
+.grid_template {
+  display: grid;
+  grid-template-columns: 361px auto 359px;
+  grid-auto-rows: minmax(100px, auto);
+
+  grid-template-areas:
+    "pic1 heading heading"
+    "pic1 quote pic2";
+}
+.template_heading {
+  grid-area: heading;
+}
+.template_quote {
+  grid-area: quote;
+}
+.richHealthyIMG1 {
+  grid-area: pic1;
+}
+.richHealthyIMG2 {
+  grid-area: pic2;
+}

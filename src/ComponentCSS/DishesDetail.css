@@ -1,0 +1,106 @@
+.dishes-detail-container{
+    width: fit-content;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "img details";
+}
+/* dish img */
+.dishes-img{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "main main"
+    "sub1 sub2";
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.main-img{
+    width: 594px;
+    height: 334px;
+    overflow: hidden;
+    object-fit: none;
+    grid-area: main;
+}
+.sub-img-1, .sub-img-2{
+    width: 287px;
+    height: 202px;
+    object-fit: cover;
+    margin: auto;
+}
+.sub-img-1{
+    grid-area: sub1;
+}
+.sub-img-2{
+    grid-area: sub2;
+}
+/* Details */
+.detail-part{
+    margin-left: 30px;
+}
+.dishes-detail-title{
+    color: #CC3333;
+    font-size: 60px;
+    font-weight: bold;
+    width: fit-content;
+}
+.dishes-detail-discription{
+    font-size: 20px;
+    font-weight: normal;
+    width: 562px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.dishes-detai-price{
+    font-size: 35px;
+    font-weight: bold;
+    color: #2A435D;
+    width: fit-content;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+/* add to cart - buy now */
+.addtocart-buynow{
+    margin: 30px auto;
+    width: fit-content;
+    gap: 20px;
+    display: flex;
+}
+.AddToCart{
+    width: 210px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #FFF8EE;
+    color: #CC3333;
+    border: 2px solid #CC3333;
+    border-radius: 20px;
+}
+.BuyNow{
+    width: 210px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #CC3333;
+    border: #FFF8EE;
+    color: #FFF8EE;
+    border-radius: 20px;
+}
+/* line throught */
+.line-seraparate{
+    width: 90%;
+    border: 3px solid #CC3333;
+    margin: auto;
+}
+/* more items */
+.moredish{
+    font-size: 35px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 20px auto;
+    color: #CC3333;
+}

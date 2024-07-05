@@ -1,0 +1,104 @@
+.delivery1{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "title title"
+    "heading img"
+    "details img"
+    "order img";
+    width: fit-content;
+    margin: 60px auto;
+}
+/* title heading details*/
+.title8{
+    margin-left: 170px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #CC3333;
+    /* margin-left: 349px; */
+    width: fit-content;
+    grid-area: title;
+}
+.heading8{
+    grid-area: heading;
+    font-size: 35px;
+    color: #2A435D;
+    width: 518px;
+    font-weight: bold;
+}
+.redtext{
+    font-size: 35px;
+    color: #CC3333 !important;
+    font-weight: bold;
+    width: fit-content;
+}
+.details8{
+    margin-top: 30px;
+    grid-area: details;
+    font-size: 18px;
+    font-weight: 100;
+    color: #2A435D;
+    width: 520px;
+}
+/* delivery order */
+.deliveryOrder{
+    margin-left: 30px;
+    margin-top: 60px;
+    width: fit-content;
+    height: 60px;
+    grid-area: order;
+    gap: 87px;
+    display: flex;
+}
+.shipHotline{
+    margin: auto;
+    height: 40px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: 22px;
+    grid-template-areas: 
+    "aa bb"
+    "cc bb";
+}
+.shipHotline .ord{
+    font-size: 20px;
+    color: #2A435D;
+    font-weight: bold;
+    width: fit-content;
+    grid-area: aa;
+}
+.hotline1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2A435D;
+    width: fit-content;
+    grid-area: cc;
+}
+.logoHotline{
+    /* grid-column: 1/3; */
+    margin-left: 5px;
+    width: 35px;
+    height: 35px;
+    grid-area: bb;
+}
+/* btn */
+.orderBtn{
+    font-size: 25px;
+    margin: auto;
+    width: 160px;
+    height: 50px;
+    color: #FFF8EE;
+    background-color: #CC3333;
+    border: none;
+    border-radius: 10px;
+}
+/* d=IMg */
+.deliveryIMG{
+    margin-left: 103px;
+    grid-area: img;
+    width: 447px;
+    height: 313px;
+}

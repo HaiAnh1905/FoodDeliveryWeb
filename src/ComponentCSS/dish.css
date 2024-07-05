@@ -1,0 +1,31 @@
+.dish{
+    width: 553px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 25px;
+}
+.dishName{
+    font-size: 25px;
+    color: #CC3333;
+    width: fit-content;
+    margin-left: 3px;
+    font-weight: 400;
+}
+.foodDescription{
+    margin-top: 10px;
+    margin-left: 3px;
+    font-size: 18px;
+    color: #2A435D;
+    width: fit-content;
+}
+.dishdetail{
+    padding-bottom: 5px;
+    width: 506px;
+    border-bottom: 2px dashed #CC3333;
+}
+.dishprice{
+    margin-left: 10px;
+    font-size: 20px;
+    width: 35px;
+    color: #CC3333;
+}

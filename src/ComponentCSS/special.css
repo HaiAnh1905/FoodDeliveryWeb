@@ -1,0 +1,99 @@
+.special{
+    margin-top: 70px;
+}
+.title5{
+    font-size: 20px;
+    color: #CC3333;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading5{
+    font-size: 35px;
+    color: #2A435D;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.details2{
+    font-size: 16px;
+    color: #2A435D;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* food kind */
+.foodkind{
+    width: fit-content;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foodkind .mealkind{
+    list-style-type: none;
+    width: 243px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CC3333;
+    background-color: #FFF8EE;
+}
+.mealkind h1{
+    font-size: 25px;
+}
+.redBG{
+    color: #FFF8EE !important;
+    background-color: #CC3333 !important;
+}
+.line{
+    border: 1px solid #2A435D;
+}
+/* special menu */
+.specialMenu{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+/* poster */
+.posterDiscount{
+    width: 489px;
+    height: 615px;
+}
+.viewAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 489px;
+    height: 60px;
+    color: #FFF8EE;
+    background-color: #CC3333;
+}
+.VAM{
+    font-weight: bold;
+    font-size: 35px;
+    /* margin-right: 60px; */
+}
+.arrow1{
+    position: absolute;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+/* menu */
+.menu{
+    margin-left: 60px;
+}
+/* arrow */
+.right{
+    transform: rotate(180deg);
+}
+.arrow2{
+    margin: auto 10px;
+    width: 40px;
+    height: 40px;
+}

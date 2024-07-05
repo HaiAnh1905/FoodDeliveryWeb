@@ -1,0 +1,101 @@
+/* Items Introduction */
+.ItemsIntroduction{
+    width: 100%;
+    height: 180px;
+    padding-top: 100px;
+    position: relative;
+    z-index: 100;
+}
+.IIBg{
+    width: 100%;
+    height: 280px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+.IITitle{
+    width: fit-content;
+    margin: 15px auto 10px;
+    font-size: 35px;
+    color: #FFF8EE;
+    font-weight: bold;
+}
+.IIHeading{
+    font-weight: 100;
+    text-align: center;
+    width: 500px;
+    font-size: 18px;
+    color: #FFF8EE;
+    margin: auto;
+}
+/* IntroductionMessage */
+.IntroductionMessage{
+    font-size: 35px;
+    color: #2A435D;
+    width: fit-content;
+    margin: 35px auto 40px;
+    font-weight: bold;
+}
+/* Search */
+.SearchItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.SearchBGC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #CC3333;
+    border-radius: 20px;
+}
+.SearchInput{
+    font-size: 18px;
+    font-weight: 100;
+    color: #2A435D;
+    padding-left: 10px;
+    width: 360px;;
+    background-color: #FFF8EE;
+    height: 80px;
+    border: 1px solid #FFF8EE;
+    border-radius: 20px;
+}
+.SearchFInd{
+    font-size: 35px;
+    color: #FFF8EE;
+    background-color: #CC3333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    border: none;
+}
+.ListOfDishes{
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 618px);
+    grid-auto-rows: auto;
+    column-gap: 38px;
+    row-gap: 30px;
+    margin-top: 79px;
+}
+.Poster1{
+    width: 588px;
+    height: 570px;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    margin: auto;
+}
+.Poster2{
+    margin: auto;
+    width: 100%;
+    height: 323px;
+    grid-column: 1/3;
+    grid-row: 6/7;
+}

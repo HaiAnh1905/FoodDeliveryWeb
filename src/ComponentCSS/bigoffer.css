@@ -1,0 +1,30 @@
+.bigoffer{
+    /* width: 100%; */
+    margin-top: 40px;
+}
+.carousel1{
+    display: flex;
+    gap: 22px;
+    overflow: hidden;
+}
+.offer_advertise{
+    width: 560px;
+    height: 200px;
+    display: inline;
+}
+.title4{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #CC3333;
+}
+.heading4{
+    color: #2A435D;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 20px auto;
+}

@@ -1,0 +1,61 @@
+.PartCart{
+    width: 100%;
+    /* background-color: white; */
+}
+.CartBG{
+    width: 100%;
+    height: 109px;
+    position: relative;
+    padding-top: 89px;
+    z-index: 100;
+}
+.CartBGImg{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 198px;
+}
+.CartBGTitle{
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFF8EE;
+    margin: auto;
+    width: fit-content;
+}
+.cart1{
+    width: 1220px;
+    margin: 0 auto;
+}
+.standardbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CC3333;
+}
+.sbitem{
+    font-size: 25px;
+    font-weight: 100;
+    width: fit-content;
+    color: #FFF8EE;
+}
+.m-l68{
+    margin-left: 68px;
+}
+.ml-90{
+    margin-left: 90px;
+}
+.m-l155{
+    margin-left: 155px;
+}
+.m-90{
+    margin: auto 90px;
+}
+.Cart-Subtotal{
+    width: 1220px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;justify-content: end;
+}

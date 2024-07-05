@@ -1,0 +1,71 @@
+.rating {
+    
+}
+/* title heading */
+.title9{
+    font-size: 20px;
+    color: #CC3333;
+    width: fit-content;
+    font-weight: bold;
+    margin: auto;
+}
+.heading9{  
+    color: #2A435D;
+    width: fit-content;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px auto;
+}
+.textred2{
+    color: #CC3333 !important;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/* guest Rating */
+.guestRating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GuestRated{
+    width: 503px;
+    height: 300px;
+}
+.guestAvatar{
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.guestName{
+    width: fit-content;
+    font-size: 25px;
+    font-weight: 100;
+    color: #2A435D;
+    margin: 10px auto 15px;
+}
+.guestComment{
+    width: 430px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    color: #2A435D;
+}
+.rated img{
+    width: 20px;
+    height: 20px;
+}
+.rated{
+    margin-top: 26px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.slider1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}

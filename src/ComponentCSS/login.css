@@ -1,0 +1,70 @@
+.login_form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #CC3333;
+    padding: 40px 60px;
+}
+.form_title{
+    font-size: 48px;
+    font-weight: bold;
+    width: fit-content;
+    color: #FFF8EE;
+    margin: 0 auto 20px;
+}
+.username-input, .password-input{
+    font-size: 18px;
+    font-weight: 100;
+    width: fit-content;
+    color: #FFF8EE;
+    margin-bottom: 5px;
+}
+.userInput, .userPassInput{
+    width: 360px;
+    height: 40px;
+    padding-left: 20px;
+    margin: 0 auto 20px;
+    border-radius: 40px;
+    border: 3px solid #FFF8EE;
+    background-color: #fff8ee2a;
+}
+.CompletedBtn{
+    width: 380px;
+    height: 45px;
+    margin: 20px auto;
+    border: 3px solid #FFF8EE;
+    border-radius: 50px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #FFF8EE;
+    background-color: #CC3333;
+}
+.forget-remember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 100;
+    gap: 5px    ;
+    color: #2A435D;
+}
+.rememberCheck{
+    width: 18px;
+    height: 18px;
+    border: #CC3333;
+}
+.forget{
+    font-size: 25px;
+    color: #4BFF3C;
+    text-decoration: none;
+}
